@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <dir class="container">
+        <h1>Cadastro Simples</h1>
+        <hr>
+        <dir>
+            <input name="id" type="hidden">
+            <div class="form-group">
+                <label for="Name"></label>
+                <input class="form-control" name="name" placeholder="Digite seu nome">
+            </div>
+            <button class="btn btn-success" save>Salvar</button>
+        </dir>
+        <table class="table" id="clients">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="clientsRows"></tbody>
+        </table>
+    </dir>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./src/scripts.js"></script>
+</body>
+</html>
